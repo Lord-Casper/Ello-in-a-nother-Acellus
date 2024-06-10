@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acellus Learning Platform</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #004f8b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+        nav {
+            background: #003d6b;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://www.acellus.com/wp-content/uploads/2018/05/acellus-online-learning.png') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .hero h2 {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        section h2 {
+            border-bottom: 2px solid #004f8b;
+            padding-bottom: 10px;
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+        footer {
+            background: #004f8b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: auto;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 20px 0;
+            font-size: 16px;
+            color: white;
+            background: #e8491d;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #d4381a;
+        }
+        ul.features-list {
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+        ul.features-list li {
+            margin: 15px 0;
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+        ul.features-list li strong {
+            color: #004f8b;
+        }
+        a {
+            color: #004f8b;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Acellus Learning Platform</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#resources">Resources</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h2>Empowering Students with Technology</h2>
+        <p>Flexible and adaptive online learning for K-12 education.</p>
+    </div>
+    <div class="container" id="overview">
+        <section>
+            <h2>Overview</h2>
+            <p>Acellus is an online learning platform used primarily for K-12 education. It offers a range of courses across various subjects including mathematics, science, language arts, social studies, and more. The platform is designed to be flexible and adaptive, catering to the individual needs of students.</p>
+        </section>
+    </div>
+    <div class="container" id="features">
+        <section>
+            <h2>Key Features</h2>
+            <ul class="features-list">
+                <li><strong>Curriculum:</strong> Wide variety of courses aligned with state and national standards.</li>
+                <li><strong>Adaptive Learning:</strong> Personalized instruction based on student performance.</li>
+                <li><strong>Video Lessons:</strong> Lessons created by experienced teachers, often with interactive elements.</li>
+                <li><strong>Assessments:</strong> Quizzes and tests to monitor student progress.</li>
+                <li><strong>Special Programs:</strong> Includes STEM education and credit recovery.</li>
+                <li><strong>Teacher Support:</strong> Comprehensive dashboard for monitoring progress and providing feedback.</li>
+                <li><strong>Accessibility:</strong> Available on various devices including computers, tablets, and smartphones.</li>
+                <li><strong>Parental Involvement:</strong> Parent interface for tracking student progress.</li>
+            </ul>
+        </section>
+    </div>
+    <div class="container" id="resources">
+        <section>
+            <h2>Additional Resources</h2>
+            <p>For more information about Acellus, visit their <a href="https://www.acellus.com" target="_blank">official website</a>.</p>
+            <a href="https://www.acellus.com" class="button" target="_blank">Visit Acellus</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Acellus Learning Platform</p>
+    </footer>
+</body>
+</html>
